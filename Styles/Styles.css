@@ -1,0 +1,148 @@
+* body {
+    background-color: rgba(128, 128, 128, 0.39);
+}
+.menuselectivo menu {
+    width: auto;
+    height: 60px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content:space-around;
+    border-radius: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+
+.menuselectivo a {
+    margin: 12px;
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.imagen img {
+    border-radius: 15px;
+}
+
+.separaciontextoimagen {
+    display: flex;
+    gap: 2rem;
+}
+
+.textohojadevida {
+    width: 1300px;
+}
+
+.textohojadevida h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.textohojadevida p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+}
+
+.partestextoimagen {
+    display: flex;
+    margin: 20px;
+    
+}
+
+.partestextoimagen p {
+    margin: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+}
+.partestextoimagen img {
+    border-radius: 10px;
+    } 
+
+.tablaconocimientos {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.tablaconocimientos table, th, td {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tablaconocimientos th {
+    background-color: #ffffff;
+}
+
+.tablaconocimientos ul {
+    list-style-type: square;
+    padding-left: 20px;
+    font-size: 20px;
+
+    
+}
+
+.tablaconocimientos ul {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.principalh1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.videosiframe {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.videosiframe iframe {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    border: 3px solid transparent; 
+}
+
+.videosiframe iframe:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px 5px rgba(0, 255, 0, 0.6); 
+    border: 3px solid green; 
+}
+
+.Experienciatextimg {
+    display: flex;
+    margin: 20px;
+    gap: 4rem;
+}
+
+.Experienciatextimg img {
+    border-radius: 20px;
+}
+
+
+
+
+.tableexperiencia table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border: 1px solid #ddd; 
+}
+
+.tableexperiencia th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.tableexperiencia th {
+    background-color: #f4f4f4;
+}
+
+.tableexperiencia ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.tableexperiencia table, th, td {
+    border: 1px solid #ddd;
+}
